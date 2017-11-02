@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "10.160.66.180 cb-suma.tf.local" >> /etc/hosts
+echo "72.16.5.129    linux-suma.suse.com" >> /etc/hosts
 
 zypper --non-interactive --gpg-auto-import-keys ref
 
